@@ -190,4 +190,80 @@ o	Y así, podemos encontrar una gran variedad de opciones y características que
 
 Paso 1: Iniciar sesión en la página de thingsboard
 
+![image](https://user-images.githubusercontent.com/94182617/151584183-ee4b06e9-4c50-47b0-8cb8-54af3759bda8.png)
 
+Paso 2: En la sección de paneles se podrá encontrar varios ejemplos de paneles que viene en thingsboard.
+
+![image](https://user-images.githubusercontent.com/94182617/151584299-7c714eed-7d45-4d3b-8b14-956b003f4f99.png)
+
+Paso 3: Abrir cualquier panel y dar click en abrir panel.
+
+![image](https://user-images.githubusercontent.com/94182617/151584362-41c0e7cc-4d10-4133-9f1d-862e98841679.png)
+
+Como se puede observar, este panel a continuación, muestra la carga de estación en un mapa y este brinda información en tiempo real con diferentes datos del mismo.
+
+Paso 4: Para crear un panel con widgets hay que regresar a paneles y agregar un nuevo panel.
+
+![image](https://user-images.githubusercontent.com/94182617/151584448-b4355444-c880-48eb-ad2f-88cbc7218fe7.png)
+
+En este caso el nombre del panel es ejemplo y como se puede ver es un panel vacío que hay que poner los widgets.
+
+Paso 5: Presionar en el lápiz que se encuentra que la esquina inferior izquierda y poner en crear un nuevo widget.
+
+![image](https://user-images.githubusercontent.com/94182617/151584555-f140e74c-86b4-4927-9728-1594dcd1900f.png)
+
+Paso 6: Colocar cualquier widget, por ejemplo, un gráfico de series de barra temporal.
+
+![image](https://user-images.githubusercontent.com/94182617/151584641-ba9d47e7-81bf-4a2d-b036-eef4ac82b8d6.png)
+
+Paso 7: Agregar el grafico 
+
+![image](https://user-images.githubusercontent.com/94182617/151584699-43231749-b6b4-4827-aff6-9deb2612e3d2.png)
+
+Paso 8: De igual manera se puede importar otros widgets, regresar a la parte de paneles e ingresar a cualquiera de ellos y guardar el widget que desee utilizar, una vez guardado regresar al panel y dar click en el lápiz, presionar en importar widget.
+
+![image](https://user-images.githubusercontent.com/94182617/151584808-62a3c2a9-1f74-4866-bfd4-43c455e145a6.png)
+
+En este widget descargo el mapa que se observa a la derecha para ponerlo en mi Proyecto.
+
+![image](https://user-images.githubusercontent.com/94182617/151584858-817a7f3f-6d93-4518-9c2e-750b020d1a57.png)
+
+Paso 9: Finalmente presionar en importar y se tendrá el widget que se descargó con anterioridad.
+
+![image](https://user-images.githubusercontent.com/94182617/151584922-6839a146-cadd-4532-8569-480355885747.png)
+
+Y así, se puede ir creando el proyecto con la variedad de widgets que brinda el programa.
+
+3.	Conclusiones:
+
+•	ThingsBoard al ser una plataforma IoT de código abierto se concluye que en este podemos almacenar, visualizar y analizar los datos de nuestros dispositivos, de manera rápida y entretenida.
+
+•	Se pudo determinar que el funcionamiento principal de este programa es unir todas las demás características de Panel de pruebas y permitir configurar y administrar dispositivos de IoT a través de la puerta de enlace usando los widgets y paneles de control de Thingsboard.
+
+•	Como conclusión el programa Thingsboard cumple con su función de recopilación de datos de telemetría: puede recopilar y almacenar datos de telemetría de manera confiable para hacer frente a fallas de red y hardware, se usa un panel web personalizable o una API del lado del servidor para acceder a los datos recopilados. 
+
+4.	Recomendaciones:
+
+•	Para utilizar Thingsboard es importante tomar en cuenta que si el programa se va a utilizar de manera profesional, de preferencia se recomienda instalar el programa pese a ser un procesos engorroso y un poco complejo, sim embargo todos los beneficios que ofrecen el programa vale la pena.
+
+•	Se recomienda tener previo conocimiento acerca del uso y manejo de dicho programa ya que existen gran variedad de funciones, alrededor de 30 widgets que están listos para usar y de igual manera uno mismo los puede crear.
+
+•	Este programa brinda la posibilidad de proporcionar un proyecto integrado con varias herramientas tecnológicas las cuales se recomienda usar para tner un proyecto dinámico y de calidad, en el que no es necesario aprender un lenguaje de programación muy avanzado.
+
+5.	Video:
+
+Parte 1:
+https://www.youtube.com/watch?v=gY0_OqnhTro
+
+Parte 2:
+
+https://www.youtube.com/watch?v=7mLttAnU30s
+
+
+6.	Bibliografías y Referencias: 
+
+G. (2020, 7 mayo). Raspberry Pi 3 - 11 Practica DHT11 Enviar datos a servicio local Thingsboard [Vídeo]. YouTube. https://www.youtube.com/watch?v=mrBB25wCnxM
+
+Introducción a la plataforma en la nube de IoT de código abierto Thingsboard. (2020). programador click. Recuperado 20 de enero de 2022, de https://programmerclick.com/article/89841896174/
+
+Nueva plataforma IoT de código abierto. (2018, 14 enero). soloelectronicos. Recuperado 20 de enero de 2022, de https://soloelectronicos.com/2018/01/14/nueva-plataforma-iot-de-codigo-abierto/
