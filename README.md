@@ -20,12 +20,14 @@ TEMA: Diseño de un ejemplo de interfaz de control con thingsboard.
 Explicar el funcionamiento básico de la plataforma de thingsboard mediante un ejemplo.
 
 1.2 Objetivos Específicos
-	Entender el funcionamiento y uso de thingsboard de manera teórica.
-	Emplear un ejemplo básico para poder gestionar su utilidad.
-	Detallar las ventajas de usar thingsboard y la facilidad que brinda el programa para crear diferentes bases de datos.
+*	Entender el funcionamiento y uso de thingsboard de manera teórica.
+*	Emplear un ejemplo básico para poder gestionar su utilidad.
+*	Detallar las ventajas de usar thingsboard y la facilidad que brinda el programa para crear diferentes bases de datos.
 
 2.	MARCO TEÓRICO
+
 2.1 Qué es thingsboard?
+
 Es una plataforma de IoT (Internet of things o Internet de las cosas) de código abierto. Está centrada en permitir un rápido desarrollo, gestión y escalado de proyectos relacionados con esta tecnología. Además, en ella tendremos acceso a una solución local o en la nube, que estará lista para usar y que habilitará la infraestructura del lado del servidor para las aplicaciones que vayan a utilizarse.
 
 Es compatible con los protocolos de IoT estándar de la industria: MQTT, CoAP y HTTP. Consigue combinar escalabilidad, tolerancia a los fallos y un buen rendimiento a la hora capturar los datos del dispositivo para su procesamiento y control. Esto es posible gracias a que dispone de un servidor de puerta de enlace que se encarga de la comunicación con los dispositivos conectados a la red. Así se logra una gestión ágil y en permanente actualización.
@@ -54,9 +56,12 @@ Para realizar la siguiente práctica se tomará un sensor de temperatura DHT11 y
 
 A continuación, se puede observar una placa de arduino conectada con una resistencia junto con el sensor de temperatura. Los sensores DHT11 y DHT22 son sensores digitales de Temperatura y Humedad, fáciles de implementar con cualquier microcontrolador. Utiliza un sensor capacitivo de humedad y un termistor para medir el aire circundante y solo un pin para la lectura de los datos. Tal vez la desventaja de estos es la velocidad de las lecturas y el tiempo que hay que esperar para tomar nuevas lecturas (nueva lectura después de 2 segundos), pero esto no es tan importante puesto que la Temperatura y Humedad son variables que no cambian muy rápido en el tiempo.
 
-	Sensor DHT11: Este sensor trabaja con un rango de medición de temperatura de 0 a 50 °C con precisión de ±2.0 °C y un rango de humedad de 20% a 90% RH con precisión de 4% RH. Los ciclos de lectura deben ser como mínimo 1 o 2 segundos.
-	Sensor DHT22: El rango de medición de temperatura es de  -40°C a 80 °C con precisión de ±0.5 °C y rango de humedad de 0 a 100% RH con precisión de 2% RH, el tiempo entre lecturas debe ser de 2 segundos.
+
+*	Sensor DHT11: Este sensor trabaja con un rango de medición de temperatura de 0 a 50 °C con precisión de ±2.0 °C y un rango de humedad de 20% a 90% RH con precisión de 4% RH. Los ciclos de lectura deben ser como mínimo 1 o 2 segundos.
+
+*	Sensor DHT22: El rango de medición de temperatura es de  -40°C a 80 °C con precisión de ±0.5 °C y rango de humedad de 0 a 100% RH con precisión de 2% RH, el tiempo entre lecturas debe ser de 2 segundos.
 (Damián, 2021)
+
 
 El proyecto que acabamos de ver en la placa de arduino, será el mismo que veremos en el servicio de thingsboard, siguiendo los pasos a continuación:
 1.	Iniciar sesión en el servicio de thingsboard con el usuario y contraseña
@@ -67,7 +72,8 @@ El proyecto que acabamos de ver en la placa de arduino, será el mismo que verem
 
 4.	Copiar el token de acceso generado automáticamente y guardarlo en el dispositivo ya que más tarde se lo utilizará.
 5.	Descargar el archivo del tablero usando el siguiente enlace: https://thingsboard.io/docs/samples/raspberry/resources/dht22temp dashboard v2.json
-	Para poder utilizar diferentes paneles podemos importar o exportar los paneles que se vayan haciendo, en este caso ya hay un panel creado que está diseñado específicamente para este tipo de proyectos como se muestra a continuación:
+
+* Para poder utilizar diferentes paneles podemos importar o exportar los paneles que se vayan haciendo, en este caso ya hay un panel creado que está diseñado específicamente para este tipo de proyectos como se muestra a continuación:
 
 ![image](https://user-images.githubusercontent.com/94182617/151582588-e96f8c3c-c800-4f10-9650-608b1728a804.png)
 
@@ -143,8 +149,9 @@ client.disconnect()
 ![image](https://user-images.githubusercontent.com/94182617/151582901-e01e26a7-631c-43a5-9964-4d2c6985b4f1.png)
 
 
-	Ejecutar con Python con nombre de nuestro archivo
-	Finalmente, abrir la interfaz de usuario web de ThingsBoard, ir a la sección "Dispositivos" y buscar "DHT11", abra los detalles del "DHT", abrir los detalles del dispositivo y cambiar a la pestaña "Última telemetría". Si todo está configurado correctamente, debería poder ver los últimos valores de "temperatura" y "humedad" en la tabla.
+*	Ejecutar con Python con nombre de nuestro archivo
+
+*	Finalmente, abrir la interfaz de usuario web de ThingsBoard, ir a la sección "Dispositivos" y buscar "DHT11", abra los detalles del "DHT", abrir los detalles del dispositivo y cambiar a la pestaña "Última telemetría". Si todo está configurado correctamente, debería poder ver los últimos valores de "temperatura" y "humedad" en la tabla.
 
 2.4	Resultados 
 
