@@ -20,7 +20,7 @@ TEMA: Diseño de un ejemplo de interfaz de control con thingsboard.
 Explicar el funcionamiento básico de la plataforma de thingsboard mediante un ejemplo.
 
 1.2 Objetivos Específicos
-*	Entender el funcionamiento y uso de thingsboard de manera teórica.
+*	Comprender el funcionamiento y uso de thingsboard de manera teórica.
 *	Emplear un ejemplo básico para poder gestionar su utilidad.
 *	Detallar las ventajas de usar thingsboard y la facilidad que brinda el programa para crear diferentes bases de datos.
 
